@@ -1,0 +1,468 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    text-decoration: none;
+}
+
+/* header section style */
+.header {
+    display: flex;
+    flex-basis: 100%;
+    background: #fff;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5%;
+}
+
+.header .logo {
+    height: 35px;
+    width: auto;
+}
+
+.logo img {
+    height: 100%;
+}
+
+.header .nav a {
+    padding: 10px 0;
+    margin-left: 10px;
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.header .login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header .login a {
+    margin-left: 10px;
+}
+
+.header .login .login-btn {
+    background: #f1f1f1;
+    padding: 8px 14px;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.header .login .start-btn {
+    background: #000;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 14px;
+    border-radius: 20px;
+}
+
+.header .login .globe {
+    width: 36px;
+    height: 36px;
+}
+
+.header .login .globe .globe-img {
+    height: 90%;
+    width: auto;
+    margin-top: 2px;
+}
+
+  .offer-finder-section {
+    position: relative;
+    text-align: center;
+    padding: 100px ;
+  }
+  
+  .background-image {
+    background-image: url(https://github.com/noob-hablu/css-assignment/blob/main/images/Rectangle%201.png?raw=true);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    filter: blur(2px) brightness(70%);
+  }
+  
+  .offer-finder {
+    background-color: white;
+    padding: 30px 80px;
+    display: flex;
+    border-radius: 10px;
+    display: inline-block;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .offer-finder h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .offer-options {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    gap: 1rem ;
+  }
+  
+  .offer-options select {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .offer-finder input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .find-offer-btn {
+    background-color: #00d9a1;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .zappr-btn {
+    background-color: transparent;
+    border: 2px solid #ddd;
+    color: #fcf8f8;
+    padding: 10px 20px;
+    border-radius: 30px;
+    margin-top: 20px;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  
+  .crypto-banner {
+    background-color: #F7CA25;
+    padding: 30px;
+    text-align: center;
+  }
+  
+  .crypto-banner p {
+    font-size: 24px;
+  }
+  
+  .crypto-icons .frame{
+    justify-content: space-between; 
+    align-items: center;
+    margin-top: 30px;
+    width: fit-content;
+  }
+  
+  .crypto-icons img {
+    width: 50px;
+    height: 50px;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .features-section {
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  .features-section h2 {
+    font-size: 28px;
+    margin-bottom: 40px;
+  }
+  
+  .features-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  .feature {
+    width: 200px;
+    margin: 0 20px;
+    text-align: center;
+  }
+  
+  .feature-icon {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px;
+  }
+  
+  .feature h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  
+  .feature p {
+    font-size: 14px;
+    margin-bottom: 15px;
+    color: #666;
+  }
+  
+  .feature a {
+    font-size: 14px;
+    color: #000;
+    text-decoration: underline;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .feature a:hover {
+    color: #007BFF;
+  }
+  
+  .divider {
+    height: 1px;
+    width: 150px;
+    border-top: 1px solid black;
+    background-color: #ddd;
+    margin: 0 30px;
+    margin-top: 85px;
+  }
+  
+  .full-features-btn {
+    background-color: transparent;
+    border: 2px solid #000;
+    color: #000;
+    padding: 10px 20px;
+    border-radius: 25px;
+    margin-top: 40px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .full-features-btn:hover {
+    background-color: #000;
+    color: #fff;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .offers-section {
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+  }
+  
+  .offers-container {
+    margin: 0 40px;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .offer {
+    border: 2px solid #e6e6e6;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .offer-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .offer-info span {
+    flex: 1;
+    text-align: center;
+    font-size: 14px;
+  }
+  
+  .offers-btn {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: 1px solid black;
+    margin-top: 15px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .offers-btn:hover {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .signup-banner {
+    background-color: #D1B2F9; /* Soft purple background */
+    text-align: center;
+    padding: 50px 20px;
+    color: #000;
+  }
+  
+  .signup-banner h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  
+  .cta-button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    color: #000;
+    background-color: #999898;
+    transition: linear .3s;
+  }
+  
+  
+  
+  footer {
+    padding: 20px;
+    background-color: #000;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-bottom: 20px;
+  }
+  
+  .footer-column {
+    flex-basis: 25%;
+  }
+  
+  .logo {
+    width: 100px; /* Adjust the size of the logo */
+  }
+  
+  .footer-column h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  .footer-column ul {
+    list-style-type: none;
+  }
+  
+  .footer-column ul li {
+    margin-bottom: 8px;
+  }
+  
+  .footer-column ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer-column ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-column ul li a strong {
+    font-weight: bold;
+    font-style: italic;
+  }
+  
+  .footer {
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer p {
+    margin: 0;
+    font-size: 12px;
+    line-height: 1.6;
+  }
+  .frame{
+    width: 100%;
+    justify-content: space-between;
+  }
+  
+  
+  .zappr-btn:hover{
+    color: #000;
+    border: 2px solid black;
+    transition: linear 0.4s;
+  }
+  
+  .find-offer-btn:hover{
+    background-color: #19d2eb;
+    transition: linear 0.5s ;
+    color: #000;
+  }
+  
+  a{
+    cursor: pointer;
+  }
+  
+  .buy-sell{
+    width: 2px;
+    height: 400px;
+    background-color: #000;
+  }
+  
+  .feature-border{
+    border-bottom: 1px solid black;
+  }
+  .btn:hover{
+    text-decoration: underline;
+  }
